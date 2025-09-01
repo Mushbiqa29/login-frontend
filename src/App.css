@@ -2,12 +2,12 @@
     .form{
         transform:scaley(0.5);
         position:absolute;
-        right:80px;
+        right:100px;
         bottom:-85px;
     }
     .login{
         bottom:-5px;
-        transform:scaleY(0.7);
+        transform:scaleY(0.6);
     }
 }
 @media(max-width:780px){
