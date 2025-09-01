@@ -46,9 +46,9 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen image flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen  flex items-center justify-center relative overflow-hidden">
       {/* Spline Background */}
-       <img src={Robo} className=" absolute right-[-20px] bottom-[-67px] z-[100] pointer-events-none "/>
+       <img src={Robo} className=" absolute image right-[-20px] bottom-[-67px] z-[100] pointer-events-none "/>
                 
       <div className="fixed inset-0 z-0">
         {!splineLoaded && (
