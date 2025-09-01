@@ -11,9 +11,7 @@
     }
 }
 @media(max-width:780px){
-    .image{
-        transform:scaley(0.8);
-    }
+
     .form{
         transform:scaley(0.6);
     }
