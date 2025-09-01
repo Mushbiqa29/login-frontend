@@ -14,9 +14,10 @@
     .image{
         transform:scaley(0.6);
     }
-    .signup{
+    .form{
         transform:scaley(0.6);
     }
+ 
 }
 .dashboard{
     background: url("../src/assets/bg.jpg") no-repeat center center fixed;
