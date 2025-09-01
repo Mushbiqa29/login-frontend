@@ -2,12 +2,17 @@
     .form{
         transform:scaley(0.5);
         position:absolute;
-        right:80px;
+        right:90px;
         bottom:-85px;
     }
     .login{
         bottom:-5px;
-        transform:scaleY((0.6))
+        transform:scaleY((0.7));
+    }
+}
+@media(max-width:780px){
+    .image{
+        transform:scaley(0.7);
     }
 }
 .dashboard{
