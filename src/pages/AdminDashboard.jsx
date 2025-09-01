@@ -51,13 +51,12 @@ const AdminDashboard = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-accent via-primary to-secondary flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-primary/20 animate-pulse"></div>
-        <div className="relative z-10">
-          <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-primary bg-gradient-to-r from-primary to-secondary"></div>
-          <p className="text-white font-inter mt-4 text-lg">Loading Dashboard...</p>
-        </div>
+       <div className="fixed inset-0 bg-accent z-50 flex items-center justify-center">
+      <div className="flex flex-col items-center">
+        <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-primary"></div>
+        <p className="text-white mt-4 font-inter font-semibold">Booting Innovation...</p>
       </div>
+    </div>
     );
   }
 
