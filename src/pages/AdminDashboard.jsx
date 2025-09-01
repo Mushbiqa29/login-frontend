@@ -15,7 +15,7 @@ const AdminDashboard = () => {
   const fetchUsers = async () => {
     try {
       const token = admin.token;
-      const response = await axios.get('http://localhost:5000/api/admin/users', {
+      const response = await axios.get(`https://e-commercelogin-1.onrender.com/api/admin/users`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -36,7 +36,7 @@ const AdminDashboard = () => {
     if (window.confirm('Are you sure you want to delete this user?')) {
       try {
         const token = admin.token;
-        await axios.delete(`http://localhost:5000/api/admin/users/${userId}`, {
+        await axios.delete(`https://e-commercelogin-1.onrender.com/api/admin/users/${userId}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

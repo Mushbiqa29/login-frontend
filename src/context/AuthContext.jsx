@@ -46,7 +46,7 @@ export const AuthProvider = ({ children }) => {
 
     try {
       const endpoint = isAdmin ? '/api/admin/login' : '/api/auth/login';
-      const res = await axios.post(`http://localhost:5000${endpoint}`, {
+      const res = await axios.post(`https://e-commercelogin-1.onrender.com${endpoint}`, {
         email,
         password,
       });
@@ -78,7 +78,7 @@ export const AuthProvider = ({ children }) => {
     dispatch({ type: 'LOGIN_START' });
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/register', {
+      const res = await axios.post(`https://e-commercelogin-1.onrender.com/api/auth/register`, {
         name,
         email,
         password,
