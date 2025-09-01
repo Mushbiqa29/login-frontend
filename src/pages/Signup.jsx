@@ -69,7 +69,7 @@ const Signup = () => {
 
       {/* Signup Form */}
       {splineLoaded && (
-        <div className={`form w-full max-w-md mx-auto px-4 transition-all duration-500 ease-out ${animateIn ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'}`}>
+        <div className={`signup form w-full max-w-md mx-auto px-4 transition-all duration-500 ease-out ${animateIn ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'}`}>
           
           <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20 relative overflow-hidden">
             {/* Form Background Effect */}
@@ -141,7 +141,7 @@ const Signup = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="password" className="block text-sm font-medium text-white/90 mb-2 font-inter">
+                  <label htmlFor="password" className="block text-sm font-medium text-black/90 mb-2 font-inter">
                     Password
                   </label>
                   <div className="relative">
@@ -161,7 +161,7 @@ const Signup = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="confirmPassword" className="block text-sm font-medium text-white/90 mb-2 font-inter">
+                  <label htmlFor="confirmPassword" className="block text-sm font-medium text-black/90 mb-2 font-inter">
                     Confirm Password
                   </label>
                   <div className="relative">

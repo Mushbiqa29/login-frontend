@@ -2,17 +2,20 @@
     .form{
         transform:scaley(0.5);
         position:absolute;
-        right:90px;
+        right:80px;
         bottom:-85px;
     }
     .login{
         bottom:-5px;
-        transform:scaleY((0.7));
+        transform:scaleY(0.7);
     }
 }
 @media(max-width:780px){
     .image{
         transform:scaley(0.7);
+    }
+    .signup{
+        transform:scale(0.5);
     }
 }
 .dashboard{
