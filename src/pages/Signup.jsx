@@ -141,7 +141,7 @@ const Signup = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="password" className="block text-sm font-medium text-black/90 mb-2 font-inter">
+                  <label htmlFor="password" className="block text-sm font-medium text-white/90 mb-2 font-inter">
                     Password
                   </label>
                   <div className="relative">
@@ -153,7 +153,7 @@ const Signup = () => {
                       required
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      className="w-full px-4 py-4 bg-gradient-to-r from-white/5 to-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all duration-300 backdrop-blur-sm font-inter"
+                      className="w-full px-4 py-4 bg-gradient-to-r from-white/5 to-white/10 border border-white/20 rounded-xl text-black placeholder-gray/50 focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all duration-300 backdrop-blur-sm font-inter"
                       placeholder="Create a password"
                     />
                     <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -161,7 +161,7 @@ const Signup = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <label htmlFor="confirmPassword" className="block text-sm font-medium text-black/90 mb-2 font-inter">
+                  <label htmlFor="confirmPassword" className="block text-sm font-medium text-white/90 mb-2 font-inter">
                     Confirm Password
                   </label>
                   <div className="relative">
@@ -173,7 +173,7 @@ const Signup = () => {
                       required
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
-                      className="w-full px-4 py-4 bg-gradient-to-r from-white/5 to-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all duration-300 backdrop-blur-sm font-inter"
+                      className="w-full px-4 py-4 bg-gradient-to-r from-white/5 to-white/10 border border-white/20 rounded-xl text-black placeholder-gray/50 focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all duration-300 backdrop-blur-sm font-inter"
                       placeholder="Confirm your password"
                     />
                     <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
